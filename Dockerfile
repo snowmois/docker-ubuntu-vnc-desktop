@@ -29,7 +29,7 @@ RUN apt-get update \
         gnome-themes-standard gtk2-engines-pixbuf gtk2-engines-murrine pinta arc-theme \
     && apt-get autoclean \
     && apt-get autoremove \
-    && rm -rf /var/lib/apt/lists/*
+    
 
 
 # tini for subreap                                   
